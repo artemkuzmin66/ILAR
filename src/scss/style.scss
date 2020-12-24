@@ -1,0 +1,74 @@
+@import "_header";
+@import "_about";
+@import "_video";
+@import "_reviews";
+@import "_process";
+@import "_faq";
+@import "_consultation";
+@import "_footer";
+@import "../slider/_slider";
+@import "_modal";
+
+body {
+   margin: 0;
+   font-family: -apple-system, BlinkMacSystemFont, "Montserrat", sans-serif, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+      "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 16px;
+   width: 100%;
+   position: relative;
+   box-sizing: border-box;
+}
+
+ul {
+   list-style-type: none;
+}
+
+a {
+   text-decoration: none;
+   cursor: pointer;
+}
+
+a,
+button,
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+   margin: 0;
+   padding: 0;
+}
+
+.purple {
+   color: #4c18aa !important;
+}
+
+.flex {
+   display: flex;
+   align-items: center;
+}
+
+::-webkit-input-placeholder {
+   color: #fff;
+}
+::-moz-placeholder {
+   color: #fff;
+}
+:-moz-placeholder {
+   color: #fff;
+}
+:-ms-input-placeholder {
+   color: #fff;
+}
